@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/RA-forms_hex2grb/static/css/main.33ffa310.chunk.css",
+    "main.js": "/RA-forms_hex2grb/static/js/main.dfa08a3b.chunk.js",
+    "main.js.map": "/RA-forms_hex2grb/static/js/main.dfa08a3b.chunk.js.map",
+    "runtime-main.js": "/RA-forms_hex2grb/static/js/runtime-main.bacf9602.js",
+    "runtime-main.js.map": "/RA-forms_hex2grb/static/js/runtime-main.bacf9602.js.map",
+    "static/js/2.21c8e532.chunk.js": "/RA-forms_hex2grb/static/js/2.21c8e532.chunk.js",
+    "static/js/2.21c8e532.chunk.js.map": "/RA-forms_hex2grb/static/js/2.21c8e532.chunk.js.map",
+    "index.html": "/RA-forms_hex2grb/index.html",
+    "static/css/main.33ffa310.chunk.css.map": "/RA-forms_hex2grb/static/css/main.33ffa310.chunk.css.map",
+    "static/js/2.21c8e532.chunk.js.LICENSE.txt": "/RA-forms_hex2grb/static/js/2.21c8e532.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bacf9602.js",
+    "static/js/2.21c8e532.chunk.js",
+    "static/css/main.33ffa310.chunk.css",
+    "static/js/main.dfa08a3b.chunk.js"
+  ]
+}
