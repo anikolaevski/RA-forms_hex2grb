@@ -38,13 +38,15 @@ export function DispColor () {
 }
 
 function CheckValidColor(color) {
-  const hex = color.trim().replace('#','');
+  let hex = color.trim().replace('#','');
   if (hex.length < 3) { return true; }
+  if (hex.length > 3 && hex.length < 6) { hex = hex.substring(0, 3); } 
+  if (hex.length > 6) { return false; }
   // eslint-disable-next-line no-undef
   var e = document.getElementById('validcolor');
   if (!e) { return false; }
   e.style.borderColor = '';
-  e.style.borderColor = color;
+  e.style.borderColor = `#${hex}`;
   var tmpcolor = e.style.borderColor;
   if (tmpcolor.length == 0) {
       return false;
