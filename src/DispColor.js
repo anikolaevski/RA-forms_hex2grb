@@ -39,6 +39,7 @@ export function DispColor () {
 
 function CheckValidColor(color) {
   let hex = color.trim().replace('#','');
+  if (!color.includes('#')) { return false; }
   if (hex.length < 3) { return true; }
   if (hex.length > 3 && hex.length < 6) { hex = hex.substring(0, 3); } 
   if (hex.length > 6) { return false; }
